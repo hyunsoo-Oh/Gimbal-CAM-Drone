@@ -2803,7 +2803,7 @@
 		)
 		(uuid 8954a973-8a4b-4e12-acac-c0e8e41d7285)
 	)
-	(text "MOSFET은 도통되면 Source, Drain 어느 방향으로도 전류의 흐름이 가능\n\nQ1/DSG		Q2/CHG\nON  			ON 		충전/방전 둘 다 허용 \nON				OFF 		충전 차단 (과충전)\nOFF			ON			방전 차단 (과방전/과전류/단락)\nOFF			OFF		양방향 차단 (완전 보호)\n\n과방전 조건: UV(셀 저전압)/OCD(방전 과전류)/SCD(단락 보호)\n\n드론의 방전을 차단하면 위험하다 판단해서 뺐음"
+	(text "MOSFET은 도통되면 Source, Drain 어느 방향으로도 전류의 흐름이 가능\n\nQ1/CHG\nON 			충전/방전 둘 다 허용 \nOFF 			충전 차단 (과충전)\n\n과방전 조건: UV(셀 저전압)/OCD(방전 과전류)/SCD(단락 보호)\n\n드론의 방전을 차단하면 위험하다 판단해서 뺐음"
 		(exclude_from_sim no)
 		(at 137.16 148.59 0)
 		(effects
