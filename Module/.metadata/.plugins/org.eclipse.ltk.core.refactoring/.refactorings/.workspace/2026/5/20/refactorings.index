@@ -1,0 +1,4 @@
+1778408329115	Rename resource 'drone-module'
+1778408367141	Rename resource 'dronemodule'
+1778502274213	Delete resource 'drone-module/Core/Src/imu/imuControl.c'
+1778507030814	Delete resource 'drone-module/Core/Src/imu/icm-42688-p/icm42688p_reg'

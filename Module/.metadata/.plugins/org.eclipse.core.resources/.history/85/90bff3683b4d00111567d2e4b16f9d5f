@@ -1,0 +1,89 @@
+/*
+ * icm-42688-p-reg.h
+ *
+ *  Created on: May 11, 2026
+ *      Author: hyunsoo-Oh
+ */
+
+#ifndef SRC_IMU_ICM_42688_P_ICM_42688_P_REG_H_
+#define SRC_IMU_ICM_42688_P_ICM_42688_P_REG_H_
+
+// =======================================================
+// User Bank 0 Register Map
+// =======================================================
+
+typedef union
+{
+    struct
+    {
+        uint8_t soft_reset_config : 1;  // bit 0    : Soft Reset 설정 - 1로 설정하면 디바이스 소프트 리셋 수행
+        uint8_t reserved0         : 3;  // bit 1~3  : Reserved
+        uint8_t spi_mode          : 1;  // bit 4    : SPI Mode 설정
+        uint8_t reserved1         : 3;  // bit 5~7  : Reserved
+    } bits;
+    uint8_t reg;
+} Device_Config;
+
+typedef union
+{
+    struct
+    {
+        uint8_t spi_slew_rate	  : 3;  // bit 0~2  :
+        uint8_t i2c_slew_rate     : 3;  // bit 4~6  :
+        uint8_t reserved          : 1;  // bit 7    : Reserved
+    } bits;
+    uint8_t reg;
+} Drive_Config;
+
+typedef union
+{
+    struct
+    {
+        uint8_t int1_polarity	  : 1;  // bit 0    :
+        uint8_t int1_drive_circuit: 1;  // bit 1	:
+        uint8_t int1_mode		  : 1;  // bit 2    :
+        uint8_t int2_polority	  : 1;  // bit 3    :
+        uint8_t int2_drive_circuit: 1;  // bit 4    :
+        uint8_t int2_mode         : 1;  // bit 5    :
+        uint8_t reserved          : 2;  // bit 6~7  : Reserved
+    } bits;
+    uint8_t reg;
+} Int_Config;
+
+typedef union
+{
+    struct
+    {
+        uint8_t reserved          : 6;  // bit 0~5  : Reserved
+        uint8_t fifo_mode         : 2;  // bit 6~7  :
+    } bits;
+    uint8_t reg;
+} Fifo_Config;
+
+typedef union
+{
+    struct
+    {
+        uint16_t temp_data		  : 16; // bit 0~5  : Reserved
+        uint16_t accel_data_x     : 2;  // bit 6~7  :
+    } bits;
+    uint8_t reg;
+} Imu_Data;
+
+typedef union
+{
+    struct
+    {
+        uint8_t agc_rdy_int		  : 1;  // bit 0    :
+        uint8_t fifo_full_int	  : 1;  // bit 1	:
+        uint8_t fifo_ths_int	  : 1;  // bit 2    :
+        uint8_t data_rdy_int	  : 1;  // bit 3    :
+        uint8_t reset_done_int	  : 1;  // bit 4    :
+        uint8_t pll_rdy_int		  : 1;  // bit 5    :
+        uint8_t ui_fsync_int	  : 1;  // bit 6    :
+        uint8_t reserved          : 1;  // bit 7    : Reserved
+    } bits;
+    uint8_t reg;
+} Int_Status;
+
+#endif /* SRC_IMU_ICM_42688_P_ICM_42688_P_REG_H_ */

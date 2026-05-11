@@ -1,0 +1,23 @@
+/*
+ * icm-42688-p.h
+ *
+ *  Created on: May 11, 2026
+ *      Author: hyunsoo-Oh
+ */
+
+#ifndef SRC_IMU_ICM_42688_P_ICM_42688_P_H_
+#define SRC_IMU_ICM_42688_P_ICM_42688_P_H_
+
+typedef struct
+{
+	union
+	{
+		uint8_t soft_reset_config 	: 1;
+		uint8_t reserve 			: 3;
+		uint8_t spi_mode 			: 1;
+		uint8_t reserve 			: 3;
+	};
+	uint8_t reg;
+};
+
+#endif /* SRC_IMU_ICM_42688_P_ICM_42688_P_H_ */
