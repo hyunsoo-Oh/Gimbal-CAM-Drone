@@ -2909,7 +2909,7 @@
 		)
 		(uuid "dd15e26e-d247-485c-82b4-9148d1aeee1f")
 	)
-	(text_box "1. 낮은 주파수 (200~400kHz)\n- 장점: 스위칭 손실이 적어 효율↑, 발열↓\n- 단점: 인덕터와 커패시터 값이 커져서 부품 크기↑\n\n2. 중간 주파수 (500 kHz, 기본값)\n- 장점: 효율과 크기 사이의 균형\n- TI 기본 권장값\n\n3. 높은 주파수 (800 kHz~1 MHz)\n- 장점: 인덕터·커패시터 값이 작아져서 PCB 크기↓\n- 단점: 스위칭 손실↑, 발열↑, 효율↓"
+	(text_box "1. 낮은 주파수 (200k~400kHz)\n- 장점: 스위칭 손실이 적어 효율↑, 발열↓\n- 단점: 인덕터와 커패시터 값이 커져서 부품 크기↑\n\n2. 중간 주파수 (500kHz, 기본값)\n- 장점: 효율과 크기 사이의 균형\n- TI 기본 권장값\n\n3. 높은 주파수 (800kHz~1MHz)\n- 장점: 인덕터·커패시터 값이 작아져서 PCB 크기↓\n- 단점: 스위칭 손실↑, 발열↑, 효율↓"
 		(exclude_from_sim no)
 		(at 205.74 21.59 0)
 		(size 68.58 30.48)
@@ -3030,6 +3030,12 @@
 		(uuid "5f24b73c-c2e4-4a44-b479-dac3d4686d64")
 	)
 	(junction
+		(at 135.89 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6301bdc9-e1af-49ad-981c-7b2b9781947b")
+	)
+	(junction
 		(at 82.55 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3088,12 +3094,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd9c85af-7239-4883-b3b9-5144ade6063b")
-	)
-	(junction
-		(at 129.54 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6f94b60-6ba2-411e-9b08-9a4c6cab51c4")
 	)
 	(junction
 		(at 147.32 43.18)
@@ -3539,6 +3539,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 43.18) (xy 135.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59985a3c-21bb-4a9e-9ad6-c420ba38707d")
+	)
+	(wire
+		(pts
 			(xy 39.37 166.37) (xy 39.37 170.18)
 		)
 		(stroke
@@ -3746,6 +3756,16 @@
 			(type default)
 		)
 		(uuid "726661b9-5f5f-440a-828c-12441d90e433")
+	)
+	(wire
+		(pts
+			(xy 137.16 43.18) (xy 135.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726ba36c-f621-4680-8274-63314518b3f2")
 	)
 	(wire
 		(pts
@@ -3989,16 +4009,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 135.89 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4397adc-0a61-4216-b53c-093768fbdb79")
-	)
-	(wire
-		(pts
 			(xy 220.98 116.84) (xy 214.63 116.84)
 		)
 		(stroke
@@ -4049,7 +4059,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 43.18) (xy 147.32 43.18)
+			(xy 144.78 43.18) (xy 147.32 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4149,17 +4159,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 26.67) (xy 109.22 26.67)
+			(xy 135.89 26.67) (xy 109.22 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd90d478-ea45-4c60-b3af-f0f4dd29d097")
+		(uuid "cef32e80-250f-4669-99f1-13689b9927c0")
 	)
 	(wire
 		(pts
-			(xy 129.54 38.1) (xy 129.54 26.67)
+			(xy 135.89 26.67) (xy 135.89 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9664,7 +9674,7 @@
 	)
 	(symbol
 		(lib_id "0_Basic_Components:L")
-		(at 139.7 43.18 90)
+		(at 140.97 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9673,7 +9683,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddc52d02-b2dd-47aa-b3b6-48e907bd4f2f")
 		(property "Reference" "L2"
-			(at 139.7 38.1 90)
+			(at 140.97 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +9691,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 139.7 40.64 90)
+			(at 140.97 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,7 +9699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 43.18 0)
+			(at 140.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9698,7 +9708,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 43.18 0)
+			(at 140.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9707,7 +9717,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 139.7 43.18 0)
+			(at 140.97 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
