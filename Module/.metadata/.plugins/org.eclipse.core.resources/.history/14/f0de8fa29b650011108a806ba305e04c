@@ -1,0 +1,28 @@
+/*
+ * w25qxx.c
+ *
+ *  Created on: May 24, 2026
+ *      Author: hyunsoo-Oh
+ */
+
+#include "w25qxx.h"
+
+static void nCS_pinHigh()
+{
+	HAL_GPIO_WriteLow(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+}
+
+static void nCS_pinClear()
+{
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+}
+
+static bool spi_write(uint8_t *pData, uint16_t size)
+{
+	HAL_SPI_Transmit(&spi1, pData, size, 10);
+}
+
+static bool spi_read(uint8_t *pData, uint16_t size)
+{
+	HAL_SPI_Receive(&spi1, pData, size, 10);
+}

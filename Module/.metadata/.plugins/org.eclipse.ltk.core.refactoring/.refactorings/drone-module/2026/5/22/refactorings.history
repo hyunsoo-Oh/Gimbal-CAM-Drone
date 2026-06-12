@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;drone-module/Core/Src/devices/flash/W25Qxx&apos; to &apos;w25qxx&apos;" description="Rename resource &apos;W25Qxx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/devices/flash/W25Qxx" name="w25qxx" stamp="1779592151673" updateReferences="true"/>
+</session>

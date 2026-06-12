@@ -1,0 +1,1269 @@
+12:22:57 **** Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rtc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_spi_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32h743vitx.d" -MT"Core/Startup/startup_stm32h743vitx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32h743vitx.o" "../Core/Startup/startup_stm32h743vitx.s"
+arm-none-eabi-gcc "../Core/Src/services/flash_cmd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/services/flash_cmd.d" -MT"Core/Src/services/flash_cmd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/services/flash_cmd.o"
+arm-none-eabi-gcc "../Core/Src/services/host_cmd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/services/host_cmd.d" -MT"Core/Src/services/host_cmd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/services/host_cmd.o"
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+arm-none-eabi-gcc "../Core/Src/devices/flash/w25qxx/w25qxx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/flash/w25qxx/w25qxx.d" -MT"Core/Src/devices/flash/w25qxx/w25qxx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/flash/w25qxx/w25qxx.o"
+arm-none-eabi-gcc "../Core/Src/app/app_init.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/app/app_init.d" -MT"Core/Src/app/app_init.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/app/app_init.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/rtc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/rtc.d" -MT"Core/Src/rtc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/rtc.o"
+In file included from ../Core/Src/devices/imu/icm-42688-p/icm42688p.h:11,
+                 from ../Core/Src/devices/imu/icm-42688-p/icm42688p.c:8:
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:108:5: error: redeclaration of enumerator 'ICM42688P_OK'
+  108 |     ICM42688P_OK = 0,              // 정상 처리
+      |     ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:21:5: note: previous definition of 'ICM42688P_OK' with type 'enum <anonymous>'
+   21 |     ICM42688P_OK = 0,              // 정상 처리
+      |     ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:109:5: error: redeclaration of enumerator 'ICM42688P_ERROR'
+  109 |     ICM42688P_ERROR,               // 일반 오류
+      |     ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:22:5: note: previous definition of 'ICM42688P_ERROR' with type 'enum <anonymous>'
+   22 |     ICM42688P_ERROR,               // 일반 오류
+      |     ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:110:5: error: redeclaration of enumerator 'ICM42688P_ERROR_NULL'
+  110 |     ICM42688P_ERROR_NULL,          // NULL 포인터 오류
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:23:5: note: previous definition of 'ICM42688P_ERROR_NULL' with type 'enum <anonymous>'
+   23 |     ICM42688P_ERROR_NULL,          // NULL 포인터 오류
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:111:5: error: redeclaration of enumerator 'ICM42688P_ERROR_COMM'
+  111 |     ICM42688P_ERROR_COMM,          // I2C/SPI 통신 오류
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:24:5: note: previous definition of 'ICM42688P_ERROR_COMM' with type 'enum <anonymous>'
+   24 |     ICM42688P_ERROR_COMM,          // I2C/SPI 통신 오류
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:112:5: error: redeclaration of enumerator 'ICM42688P_ERROR_WHO_AM_I'
+  112 |     ICM42688P_ERROR_WHO_AM_I,      // WHO_AM_I 값 불일치
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:25:5: note: previous definition of 'ICM42688P_ERROR_WHO_AM_I' with type 'enum <anonymous>'
+   25 |     ICM42688P_ERROR_WHO_AM_I,      // WHO_AM_I 값 불일치
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:113:5: error: redeclaration of enumerator 'ICM42688P_ERROR_TIMEOUT'
+  113 |     ICM42688P_ERROR_TIMEOUT        // 통신 Timeout 오류
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:26:5: note: previous definition of 'ICM42688P_ERROR_TIMEOUT' with type 'enum <anonymous>'
+   26 |     ICM42688P_ERROR_TIMEOUT        // 통신 Timeout 오류
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:114:3: error: conflicting types for 'Icm42688p_Status'; have 'enum <anonymous>'
+  114 | } Icm42688p_Status;
+      |   ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:27:3: note: previous declaration of 'Icm42688p_Status' with type 'Icm42688p_Status'
+   27 | } Icm42688p_Status;
+      |   ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:125:5: error: redeclaration of enumerator 'ICM42688P_INTERFACE_I2C'
+  125 |     ICM42688P_INTERFACE_I2C = 0,   // I2C 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:38:5: note: previous definition of 'ICM42688P_INTERFACE_I2C' with type 'enum <anonymous>'
+   38 |     ICM42688P_INTERFACE_I2C = 0,   // I2C 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:126:5: error: redeclaration of enumerator 'ICM42688P_INTERFACE_SPI'
+  126 |     ICM42688P_INTERFACE_SPI        // SPI 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:39:5: note: previous definition of 'ICM42688P_INTERFACE_SPI' with type 'enum <anonymous>'
+   39 |     ICM42688P_INTERFACE_SPI        // SPI 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:127:3: error: conflicting types for 'Icm42688p_Interface'; have 'enum <anonymous>'
+  127 | } Icm42688p_Interface;
+      |   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:40:3: note: previous declaration of 'Icm42688p_Interface' with type 'Icm42688p_Interface'
+   40 | } Icm42688p_Interface;
+      |   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:134:5: error: unknown type name 'int16_t'
+  134 |     int16_t temp_raw;       // 온도 원시 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:136:5: error: unknown type name 'int16_t'
+  136 |     int16_t accel_x_raw;    // X축 가속도 원시 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:137:5: error: unknown type name 'int16_t'
+  137 |     int16_t accel_y_raw;    // Y축 가속도 원시 데이터
+      |     ^~~~~~~
+arm-none-eabi-gcc "../Core/Src/spi.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/spi.d" -MT"Core/Src/spi.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/spi.o"
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:138:5: error: unknown type name 'int16_t'
+  138 |     int16_t accel_z_raw;    // Z축 가속도 원시 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:140:5: error: unknown type name 'int16_t'
+  140 |     int16_t gyro_x_raw;     // X축 자이로 원시 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:141:5: error: unknown type name 'int16_t'
+  141 |     int16_t gyro_y_raw;     // Y축 자이로 원시 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:142:5: error: unknown type name 'int16_t'
+  142 |     int16_t gyro_z_raw;     // Z축 자이로 원시 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:20:5: error: unknown type name 'uint8_t'
+   20 |     uint8_t i2c_addr;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:39:62: error: unknown type name 'uint8_t'
+   39 | Icm42688p_Status Icm42688p_ReadWhoAmI(Icm42688p_Handle *imu, uint8_t *who_am_i);
+      |                                                              ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:12:1: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+   11 | #include "icm42688p_types.h"
+  +++ |+#include <stdint.h>
+   12 | 
+In file included from ../Core/Src/devices/imu/icm-42688-p/icm42688p.c:9:
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:127:9: error: unknown type name 'uint8_t'
+  127 |         uint8_t soft_reset_config : 1;  // Soft Reset 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:128:9: error: unknown type name 'uint8_t'
+  128 |         uint8_t reserved0         : 3;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:129:9: error: unknown type name 'uint8_t'
+  129 |         uint8_t spi_mode          : 1;  // SPI Mode 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:130:9: error: unknown type name 'uint8_t'
+  130 |         uint8_t reserved1         : 3;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:132:5: error: unknown type name 'uint8_t'
+  132 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:139:9: error: unknown type name 'uint8_t'
+  139 |         uint8_t spi_slew_rate     : 3;  // SPI Slew Rate 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:140:9: error: unknown type name 'uint8_t'
+  140 |         uint8_t i2c_slew_rate     : 3;  // I2C Slew Rate 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:141:9: error: unknown type name 'uint8_t'
+  141 |         uint8_t reserved          : 2;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:143:5: error: unknown type name 'uint8_t'
+  143 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:150:9: error: unknown type name 'uint8_t'
+  150 |         uint8_t int1_polarity       : 1;  // INT1 Polarity 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:151:9: error: unknown type name 'uint8_t'
+  151 |         uint8_t int1_drive_circuit  : 1;  // INT1 Drive Circuit 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:152:9: error: unknown type name 'uint8_t'
+  152 |         uint8_t int1_mode           : 1;  // INT1 Mode 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:153:9: error: unknown type name 'uint8_t'
+  153 |         uint8_t int2_polarity       : 1;  // INT2 Polarity 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:154:9: error: unknown type name 'uint8_t'
+  154 |         uint8_t int2_drive_circuit  : 1;  // INT2 Drive Circuit 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:155:9: error: unknown type name 'uint8_t'
+  155 |         uint8_t int2_mode           : 1;  // INT2 Mode 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:156:9: error: unknown type name 'uint8_t'
+  156 |         uint8_t reserved            : 2;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:158:5: error: unknown type name 'uint8_t'
+  158 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:165:9: error: unknown type name 'uint8_t'
+  165 |         uint8_t reserved          : 6;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:166:9: error: unknown type name 'uint8_t'
+  166 |         uint8_t fifo_mode         : 2;  // FIFO Mode 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:168:5: error: unknown type name 'uint8_t'
+  168 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:175:9: error: unknown type name 'uint8_t'
+  175 |         uint8_t agc_rdy_int       : 1;  // AGC Ready Interrupt
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:176:9: error: unknown type name 'uint8_t'
+  176 |         uint8_t fifo_full_int     : 1;  // FIFO Full Interrupt
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:177:9: error: unknown type name 'uint8_t'
+  177 |         uint8_t fifo_ths_int      : 1;  // FIFO Threshold Interrupt
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:178:9: error: unknown type name 'uint8_t'
+  178 |         uint8_t data_rdy_int      : 1;  // Data Ready Interrupt
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:179:9: error: unknown type name 'uint8_t'
+  179 |         uint8_t reset_done_int    : 1;  // Reset Done Interrupt
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:180:9: error: unknown type name 'uint8_t'
+  180 |         uint8_t pll_rdy_int       : 1;  // PLL Ready Interrupt
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:181:9: error: unknown type name 'uint8_t'
+  181 |         uint8_t ui_fsync_int      : 1;  // UI FSYNC Interrupt
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:182:9: error: unknown type name 'uint8_t'
+  182 |         uint8_t reserved          : 1;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:184:5: error: unknown type name 'uint8_t'
+  184 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:191:9: error: unknown type name 'uint8_t'
+  191 |         uint8_t accel_mode        : 2;  // Accel Mode 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:192:9: error: unknown type name 'uint8_t'
+  192 |         uint8_t gyro_mode         : 2;  // Gyro Mode 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:193:9: error: unknown type name 'uint8_t'
+  193 |         uint8_t idle              : 1;  // RC Oscillator 유지 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:194:9: error: unknown type name 'uint8_t'
+  194 |         uint8_t temp_dis          : 1;  // Temperature Sensor Disable
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:195:9: error: unknown type name 'uint8_t'
+  195 |         uint8_t reserved          : 2;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:197:5: error: unknown type name 'uint8_t'
+  197 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:204:9: error: unknown type name 'uint8_t'
+  204 |         uint8_t gyro_odr          : 4;  // Gyro ODR 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:205:9: error: unknown type name 'uint8_t'
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_hal_msp.d" -MT"Core/Src/stm32h7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_hal_msp.o"
+  205 |         uint8_t reserved          : 1;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:206:9: error: unknown type name 'uint8_t'
+  206 |         uint8_t gyro_fs_sel       : 3;  // Gyro Full Scale 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:208:5: error: unknown type name 'uint8_t'
+  208 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:215:9: error: unknown type name 'uint8_t'
+  215 |         uint8_t accel_odr         : 4;  // Accel ODR 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:216:9: error: unknown type name 'uint8_t'
+  216 |         uint8_t reserved          : 1;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:217:9: error: unknown type name 'uint8_t'
+  217 |         uint8_t accel_fs_sel      : 3;  // Accel Full Scale 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:219:5: error: unknown type name 'uint8_t'
+  219 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:226:9: error: unknown type name 'uint8_t'
+  226 |         uint8_t ui_agc_rdy_int1_en   : 1;  // AGC Ready Interrupt INT1 출력 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:227:9: error: unknown type name 'uint8_t'
+  227 |         uint8_t fifo_full_int1_en    : 1;  // FIFO Full Interrupt INT1 출력 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:228:9: error: unknown type name 'uint8_t'
+  228 |         uint8_t fifo_ths_int1_en     : 1;  // FIFO Threshold Interrupt INT1 출력 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:229:9: error: unknown type name 'uint8_t'
+  229 |         uint8_t ui_drdy_int1_en      : 1;  // Data Ready Interrupt INT1 출력 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:230:9: error: unknown type name 'uint8_t'
+  230 |         uint8_t reset_done_int1_en   : 1;  // Reset Done Interrupt INT1 출력 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:231:9: error: unknown type name 'uint8_t'
+  231 |         uint8_t pll_rdy_int1_en      : 1;  // PLL Ready Interrupt INT1 출력 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:232:9: error: unknown type name 'uint8_t'
+  232 |         uint8_t ui_fsync_int1_en     : 1;  // FSYNC Interrupt INT1 출력 설정
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:233:9: error: unknown type name 'uint8_t'
+  233 |         uint8_t reserved             : 1;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:235:5: error: unknown type name 'uint8_t'
+  235 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:242:9: error: unknown type name 'uint8_t'
+  242 |         uint8_t bank_sel          : 3;  // Register Bank 선택
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:243:9: error: unknown type name 'uint8_t'
+  243 |         uint8_t reserved          : 5;  // Reserved
+      |         ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:245:5: error: unknown type name 'uint8_t'
+  245 |     uint8_t reg;
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:254:5: error: unknown type name 'int16_t'
+  254 |     int16_t temp_raw;       // 온도 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:255:5: error: unknown type name 'int16_t'
+  255 |     int16_t accel_x_raw;    // X축 가속도 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:256:5: error: unknown type name 'int16_t'
+  256 |     int16_t accel_y_raw;    // Y축 가속도 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:257:5: error: unknown type name 'int16_t'
+  257 |     int16_t accel_z_raw;    // Z축 가속도 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:258:5: error: unknown type name 'int16_t'
+  258 |     int16_t gyro_x_raw;     // X축 자이로 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:259:5: error: unknown type name 'int16_t'
+  259 |     int16_t gyro_y_raw;     // Y축 자이로 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:260:5: error: unknown type name 'int16_t'
+  260 |     int16_t gyro_z_raw;     // Z축 자이로 데이터
+      |     ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:267:15: error: unknown type name 'int16_t'
+  267 | static inline int16_t Icm42688_MakeInt16(uint8_t msb, uint8_t lsb)
+      |               ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:267:42: error: unknown type name 'uint8_t'
+  267 | static inline int16_t Icm42688_MakeInt16(uint8_t msb, uint8_t lsb)
+      |                                          ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:1:1: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+  +++ |+#include <stdint.h>
+    1 | /*
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:267:55: error: unknown type name 'uint8_t'
+  267 | static inline int16_t Icm42688_MakeInt16(uint8_t msb, uint8_t lsb)
+      |                                                       ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:267:55: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:272:43: error: unknown type name 'int16_t'
+  272 | static inline float Icm42688_ConvertTempC(int16_t temp_raw)
+      |                                           ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_reg.h:272:43: note: 'int16_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:67: error: unknown type name 'uint8_t'
+   32 | static Icm42688p_Status Icm42688p_WriteReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t data)
+      |                                                                   ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:10:1: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+    9 | #include "icm42688p_reg.h"
+  +++ |+#include <stdint.h>
+   10 | 
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:80: error: unknown type name 'uint8_t'
+   32 | static Icm42688p_Status Icm42688p_WriteReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t data)
+      |                                                                                ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:80: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:66: error: unknown type name 'uint8_t'
+   82 | static Icm42688p_Status Icm42688p_ReadReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t *data)
+      |                                                                  ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:66: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:79: error: unknown type name 'uint8_t'
+   82 | static Icm42688p_Status Icm42688p_ReadReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t *data)
+      |                                                                               ^~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:79: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+12:23:56 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32h7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32h7xx.d" -MT"Core/Src/system_stm32h7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32h7xx.o"
+In file included from ../Core/Src/devices/imu/icm-42688-p/icm42688p.h:11,
+                 from ../Core/Src/devices/imu/icm-42688-p/icm42688p.c:8:
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:108:5: error: redeclaration of enumerator 'ICM42688P_OK'
+  108 |     ICM42688P_OK = 0,              // 정상 처리
+      |     ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:21:5: note: previous definition of 'ICM42688P_OK' with type 'enum <anonymous>'
+   21 |     ICM42688P_OK = 0,              // 정상 처리
+      |     ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:109:5: error: redeclaration of enumerator 'ICM42688P_ERROR'
+  109 |     ICM42688P_ERROR,               // 일반 오류
+      |     ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:22:5: note: previous definition of 'ICM42688P_ERROR' with type 'enum <anonymous>'
+   22 |     ICM42688P_ERROR,               // 일반 오류
+      |     ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:110:5: error: redeclaration of enumerator 'ICM42688P_ERROR_NULL'
+  110 |     ICM42688P_ERROR_NULL,          // NULL 포인터 오류
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:23:5: note: previous definition of 'ICM42688P_ERROR_NULL' with type 'enum <anonymous>'
+   23 |     ICM42688P_ERROR_NULL,          // NULL 포인터 오류
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:111:5: error: redeclaration of enumerator 'ICM42688P_ERROR_COMM'
+  111 |     ICM42688P_ERROR_COMM,          // I2C/SPI 통신 오류
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:24:5: note: previous definition of 'ICM42688P_ERROR_COMM' with type 'enum <anonymous>'
+   24 |     ICM42688P_ERROR_COMM,          // I2C/SPI 통신 오류
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:112:5: error: redeclaration of enumerator 'ICM42688P_ERROR_WHO_AM_I'
+  112 |     ICM42688P_ERROR_WHO_AM_I,      // WHO_AM_I 값 불일치
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:25:5: note: previous definition of 'ICM42688P_ERROR_WHO_AM_I' with type 'enum <anonymous>'
+   25 |     ICM42688P_ERROR_WHO_AM_I,      // WHO_AM_I 값 불일치
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:113:5: error: redeclaration of enumerator 'ICM42688P_ERROR_TIMEOUT'
+  113 |     ICM42688P_ERROR_TIMEOUT        // 통신 Timeout 오류
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:26:5: note: previous definition of 'ICM42688P_ERROR_TIMEOUT' with type 'enum <anonymous>'
+   26 |     ICM42688P_ERROR_TIMEOUT        // 통신 Timeout 오류
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:114:3: error: conflicting types for 'Icm42688p_Status'; have 'enum <anonymous>'
+  114 | } Icm42688p_Status;
+      |   ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:27:3: note: previous declaration of 'Icm42688p_Status' with type 'Icm42688p_Status'
+   27 | } Icm42688p_Status;
+      |   ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:125:5: error: redeclaration of enumerator 'ICM42688P_INTERFACE_I2C'
+  125 |     ICM42688P_INTERFACE_I2C = 0,   // I2C 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:38:5: note: previous definition of 'ICM42688P_INTERFACE_I2C' with type 'enum <anonymous>'
+   38 |     ICM42688P_INTERFACE_I2C = 0,   // I2C 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:126:5: error: redeclaration of enumerator 'ICM42688P_INTERFACE_SPI'
+  126 |     ICM42688P_INTERFACE_SPI        // SPI 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:39:5: note: previous definition of 'ICM42688P_INTERFACE_SPI' with type 'enum <anonymous>'
+   39 |     ICM42688P_INTERFACE_SPI        // SPI 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:127:3: error: conflicting types for 'Icm42688p_Interface'; have 'enum <anonymous>'
+  127 | } Icm42688p_Interface;
+      |   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:40:3: note: previous declaration of 'Icm42688p_Interface' with type 'Icm42688p_Interface'
+   40 | } Icm42688p_Interface;
+      |   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_WriteReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:16: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   37 |         if (imu->hi2c == NULL)
+      |                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: error: 'NULL' undeclared (first use in this function)
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:10:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+    9 | #include "icm42688p_reg.h"
+  +++ |+#include <stddef.h>
+   10 | 
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: note: each undeclared identifier is reported only once for each function it appears in
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:13: warning: implicit declaration of function 'HAL_I2C_Mem_Write' [-Wimplicit-function-declaration]
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:34: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:45:31: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   45 |                               I2C_MEMADD_SIZE_8BIT,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:34: error: 'Icm42688p_Handle' has no member named 'timeout'
+   48 |                               imu->timeout) != HAL_OK)
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:48: error: 'HAL_OK' undeclared (first use in this function)
+   48 |                               imu->timeout) != HAL_OK)
+      |                                                ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:9: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:13: warning: implicit declaration of function 'HAL_SPI_Transmit' [-Wimplicit-function-declaration]
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:33: error: 'Icm42688p_Handle' has no member named 'hspi'
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:71:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   71 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:71:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   71 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_ReadReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:13: warning: implicit declaration of function 'HAL_I2C_Mem_Read' [-Wimplicit-function-declaration]
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:33: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:90:30: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   90 |                              I2C_MEMADD_SIZE_8BIT,
+      |                              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:33: error: 'Icm42688p_Handle' has no member named 'timeout'
+   93 |                              imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:47: error: 'HAL_OK' undeclared (first use in this function)
+   93 |                              imu->timeout) != HAL_OK)
+      |                                               ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:108:33: error: 'Icm42688p_Handle' has no member named 'hspi'
+  108 |         if (HAL_SPI_Transmit(imu->hspi, &tx_reg, 1, imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:108:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+  108 |         if (HAL_SPI_Transmit(imu->hspi, &tx_reg, 1, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:13: warning: implicit declaration of function 'HAL_SPI_Receive' [-Wimplicit-function-declaration]
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:32: error: 'Icm42688p_Handle' has no member named 'hspi'
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:116:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  116 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:116:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  116 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:120:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  120 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:120:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  120 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: At top level:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:25: warning: 'Icm42688p_ReadReg' defined but not used [-Wunused-function]
+   82 | static Icm42688p_Status Icm42688p_ReadReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t *data)
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:25: warning: 'Icm42688p_WriteReg' defined but not used [-Wunused-function]
+   32 | static Icm42688p_Status Icm42688p_WriteReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t data)
+      |                         ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+12:25:51 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+In file included from ../Core/Src/devices/imu/icm-42688-p/icm42688p.h:11,
+                 from ../Core/Src/devices/imu/icm-42688-p/icm42688p.c:8:
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:108:5: error: redeclaration of enumerator 'ICM42688P_INTERFACE_I2C'
+  108 |     ICM42688P_INTERFACE_I2C = 0,   // I2C 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:38:5: note: previous definition of 'ICM42688P_INTERFACE_I2C' with type 'enum <anonymous>'
+   38 |     ICM42688P_INTERFACE_I2C = 0,   // I2C 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:109:5: error: redeclaration of enumerator 'ICM42688P_INTERFACE_SPI'
+  109 |     ICM42688P_INTERFACE_SPI        // SPI 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:39:5: note: previous definition of 'ICM42688P_INTERFACE_SPI' with type 'enum <anonymous>'
+   39 |     ICM42688P_INTERFACE_SPI        // SPI 사용
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:110:3: error: conflicting types for 'Icm42688p_Interface'; have 'enum <anonymous>'
+  110 | } Icm42688p_Interface;
+      |   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p_types.h:40:3: note: previous declaration of 'Icm42688p_Interface' with type 'Icm42688p_Interface'
+   40 | } Icm42688p_Interface;
+      |   ^~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_WriteReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:16: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   37 |         if (imu->hi2c == NULL)
+      |                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: error: 'NULL' undeclared (first use in this function)
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:10:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+    9 | #include "icm42688p_reg.h"
+  +++ |+#include <stddef.h>
+   10 | 
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: note: each undeclared identifier is reported only once for each function it appears in
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:13: warning: implicit declaration of function 'HAL_I2C_Mem_Write' [-Wimplicit-function-declaration]
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:34: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:45:31: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   45 |                               I2C_MEMADD_SIZE_8BIT,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:34: error: 'Icm42688p_Handle' has no member named 'timeout'
+   48 |                               imu->timeout) != HAL_OK)
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:48: error: 'HAL_OK' undeclared (first use in this function)
+   48 |                               imu->timeout) != HAL_OK)
+      |                                                ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:9: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:13: warning: implicit declaration of function 'HAL_SPI_Transmit' [-Wimplicit-function-declaration]
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:33: error: 'Icm42688p_Handle' has no member named 'hspi'
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:71:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   71 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:71:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   71 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_ReadReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:13: warning: implicit declaration of function 'HAL_I2C_Mem_Read' [-Wimplicit-function-declaration]
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:33: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:90:30: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   90 |                              I2C_MEMADD_SIZE_8BIT,
+      |                              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:33: error: 'Icm42688p_Handle' has no member named 'timeout'
+   93 |                              imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:47: error: 'HAL_OK' undeclared (first use in this function)
+   93 |                              imu->timeout) != HAL_OK)
+      |                                               ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:108:33: error: 'Icm42688p_Handle' has no member named 'hspi'
+  108 |         if (HAL_SPI_Transmit(imu->hspi, &tx_reg, 1, imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:108:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+  108 |         if (HAL_SPI_Transmit(imu->hspi, &tx_reg, 1, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:13: warning: implicit declaration of function 'HAL_SPI_Receive' [-Wimplicit-function-declaration]
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:32: error: 'Icm42688p_Handle' has no member named 'hspi'
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:116:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  116 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:116:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  116 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:120:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  120 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:120:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  120 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: At top level:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:25: warning: 'Icm42688p_ReadReg' defined but not used [-Wunused-function]
+   82 | static Icm42688p_Status Icm42688p_ReadReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t *data)
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:25: warning: 'Icm42688p_WriteReg' defined but not used [-Wunused-function]
+   32 | static Icm42688p_Status Icm42688p_WriteReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t data)
+      |                         ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+12:26:16 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_WriteReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:16: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   37 |         if (imu->hi2c == NULL)
+      |                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: error: 'NULL' undeclared (first use in this function)
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:10:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+    9 | #include "icm42688p_reg.h"
+  +++ |+#include <stddef.h>
+   10 | 
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: note: each undeclared identifier is reported only once for each function it appears in
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:13: warning: implicit declaration of function 'HAL_I2C_Mem_Write' [-Wimplicit-function-declaration]
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:34: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:45:31: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   45 |                               I2C_MEMADD_SIZE_8BIT,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:34: error: 'Icm42688p_Handle' has no member named 'timeout'
+   48 |                               imu->timeout) != HAL_OK)
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:48: error: 'HAL_OK' undeclared (first use in this function)
+   48 |                               imu->timeout) != HAL_OK)
+      |                                                ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:9: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:13: warning: implicit declaration of function 'HAL_SPI_Transmit' [-Wimplicit-function-declaration]
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:33: error: 'Icm42688p_Handle' has no member named 'hspi'
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:71:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   71 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:71:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   71 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_ReadReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:13: warning: implicit declaration of function 'HAL_I2C_Mem_Read' [-Wimplicit-function-declaration]
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:33: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:90:30: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   90 |                              I2C_MEMADD_SIZE_8BIT,
+      |                              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:33: error: 'Icm42688p_Handle' has no member named 'timeout'
+   93 |                              imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:47: error: 'HAL_OK' undeclared (first use in this function)
+   93 |                              imu->timeout) != HAL_OK)
+      |                                               ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:108:33: error: 'Icm42688p_Handle' has no member named 'hspi'
+  108 |         if (HAL_SPI_Transmit(imu->hspi, &tx_reg, 1, imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:108:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+  108 |         if (HAL_SPI_Transmit(imu->hspi, &tx_reg, 1, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:13: warning: implicit declaration of function 'HAL_SPI_Receive' [-Wimplicit-function-declaration]
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:32: error: 'Icm42688p_Handle' has no member named 'hspi'
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:116:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  116 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:116:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  116 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:120:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  120 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:120:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  120 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: At top level:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:25: warning: 'Icm42688p_ReadReg' defined but not used [-Wunused-function]
+   82 | static Icm42688p_Status Icm42688p_ReadReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t *data)
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:25: warning: 'Icm42688p_WriteReg' defined but not used [-Wunused-function]
+   32 | static Icm42688p_Status Icm42688p_WriteReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t data)
+      |                         ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+12:27:28 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_WriteReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:16: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   37 |         if (imu->hi2c == NULL)
+      |                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: error: 'NULL' undeclared (first use in this function)
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:10:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+    9 | #include "icm42688p_reg.h"
+  +++ |+#include <stddef.h>
+   10 | 
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: note: each undeclared identifier is reported only once for each function it appears in
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:13: warning: implicit declaration of function 'HAL_I2C_Mem_Write' [-Wimplicit-function-declaration]
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:34: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:45:31: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   45 |                               I2C_MEMADD_SIZE_8BIT,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:34: error: 'Icm42688p_Handle' has no member named 'timeout'
+   48 |                               imu->timeout) != HAL_OK)
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:48: error: 'HAL_OK' undeclared (first use in this function)
+   48 |                               imu->timeout) != HAL_OK)
+      |                                                ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:9: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:13: warning: implicit declaration of function 'HAL_SPI_Transmit' [-Wimplicit-function-declaration]
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:33: error: 'Icm42688p_Handle' has no member named 'hspi'
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:71:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+   71 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:71:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+   71 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_ReadReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:13: warning: implicit declaration of function 'HAL_I2C_Mem_Read' [-Wimplicit-function-declaration]
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:33: error: 'Icm42688p_Handle' has no member named 'hi2c'
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:90:30: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   90 |                              I2C_MEMADD_SIZE_8BIT,
+      |                              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:33: error: 'Icm42688p_Handle' has no member named 'timeout'
+   93 |                              imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:47: error: 'HAL_OK' undeclared (first use in this function)
+   93 |                              imu->timeout) != HAL_OK)
+      |                                               ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:108:33: error: 'Icm42688p_Handle' has no member named 'hspi'
+  108 |         if (HAL_SPI_Transmit(imu->hspi, &tx_reg, 1, imu->timeout) != HAL_OK)
+      |                                 ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:108:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+  108 |         if (HAL_SPI_Transmit(imu->hspi, &tx_reg, 1, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:13: warning: implicit declaration of function 'HAL_SPI_Receive' [-Wimplicit-function-declaration]
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:32: error: 'Icm42688p_Handle' has no member named 'hspi'
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:56: error: 'Icm42688p_Handle' has no member named 'timeout'
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |                                                        ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:116:34: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  116 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                  ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:116:48: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  116 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:120:30: error: 'Icm42688p_Handle' has no member named 'cs_port'
+  120 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                              ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:120:44: error: 'Icm42688p_Handle' has no member named 'cs_pin'
+  120 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                            ^~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: At top level:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:25: warning: 'Icm42688p_ReadReg' defined but not used [-Wunused-function]
+   82 | static Icm42688p_Status Icm42688p_ReadReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t *data)
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:25: warning: 'Icm42688p_WriteReg' defined but not used [-Wunused-function]
+   32 | static Icm42688p_Status Icm42688p_WriteReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t data)
+      |                         ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+12:28:35 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+In file included from ../Core/Src/devices/imu/icm-42688-p/icm42688p.c:8:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:20:5: error: unknown type name 'I2C_HandleTypeDef'
+   20 |     I2C_HandleTypeDef *hi2c;
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:21:5: error: unknown type name 'SPI_HandleTypeDef'
+   21 |     SPI_HandleTypeDef *hspi;
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:23:5: error: unknown type name 'GPIO_TypeDef'
+   23 |     GPIO_TypeDef *cs_port;
+      |     ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_WriteReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: error: 'NULL' undeclared (first use in this function)
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:10:1: note: 'NULL' is defined in header '<stddef.h>'; did you forget to '#include <stddef.h>'?
+    9 | #include "icm42688p_reg.h"
+  +++ |+#include <stddef.h>
+   10 | 
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:26: note: each undeclared identifier is reported only once for each function it appears in
+   37 |         if (imu->hi2c == NULL)
+      |                          ^~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:42:13: warning: implicit declaration of function 'HAL_I2C_Mem_Write' [-Wimplicit-function-declaration]
+   42 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:45:31: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   45 |                               I2C_MEMADD_SIZE_8BIT,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:48:48: error: 'HAL_OK' undeclared (first use in this function)
+   48 |                               imu->timeout) != HAL_OK)
+      |                                                ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:9: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:63:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+   63 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:65:13: warning: implicit declaration of function 'HAL_SPI_Transmit' [-Wimplicit-function-declaration]
+   65 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:67:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+   67 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_ReadReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:87:13: warning: implicit declaration of function 'HAL_I2C_Mem_Read' [-Wimplicit-function-declaration]
+   87 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:90:30: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   90 |                              I2C_MEMADD_SIZE_8BIT,
+      |                              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:93:47: error: 'HAL_OK' undeclared (first use in this function)
+   93 |                              imu->timeout) != HAL_OK)
+      |                                               ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:106:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+  106 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:110:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+  110 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:114:13: warning: implicit declaration of function 'HAL_SPI_Receive' [-Wimplicit-function-declaration]
+  114 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: At top level:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:25: warning: 'Icm42688p_ReadReg' defined but not used [-Wunused-function]
+   82 | static Icm42688p_Status Icm42688p_ReadReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t *data)
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:25: warning: 'Icm42688p_WriteReg' defined but not used [-Wunused-function]
+   32 | static Icm42688p_Status Icm42688p_WriteReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t data)
+      |                         ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+12:29:37 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+In file included from ../Core/Src/devices/imu/icm-42688-p/icm42688p.c:8:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:20:5: error: unknown type name 'I2C_HandleTypeDef'
+   20 |     I2C_HandleTypeDef *hi2c;        // I2C 사용 시 사용할 HAL I2C 핸들
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:21:5: error: unknown type name 'SPI_HandleTypeDef'
+   21 |     SPI_HandleTypeDef *hspi;        // SPI 사용 시 사용할 HAL SPI 핸들
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:23:5: error: unknown type name 'GPIO_TypeDef'
+   23 |     GPIO_TypeDef *cs_port;          // SPI CS 핀의 GPIO Port
+      |     ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_WriteReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:37:13: warning: implicit declaration of function 'HAL_I2C_Mem_Write' [-Wimplicit-function-declaration]
+   37 |         if (HAL_I2C_Mem_Write(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:40:31: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   40 |                               I2C_MEMADD_SIZE_8BIT,
+      |                               ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:40:31: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:43:48: error: 'HAL_OK' undeclared (first use in this function)
+   43 |                               imu->timeout) != HAL_OK)
+      |                                                ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:58:9: warning: implicit declaration of function 'HAL_GPIO_WritePin' [-Wimplicit-function-declaration]
+   58 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:58:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+   58 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:60:13: warning: implicit declaration of function 'HAL_SPI_Transmit' [-Wimplicit-function-declaration]
+   60 |         if (HAL_SPI_Transmit(imu->hspi, tx_data, 2, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:62:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+   62 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: In function 'Icm42688p_ReadReg':
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:82:13: warning: implicit declaration of function 'HAL_I2C_Mem_Read' [-Wimplicit-function-declaration]
+   82 |         if (HAL_I2C_Mem_Read(imu->hi2c,
+      |             ^~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:85:30: error: 'I2C_MEMADD_SIZE_8BIT' undeclared (first use in this function)
+   85 |                              I2C_MEMADD_SIZE_8BIT,
+      |                              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:88:47: error: 'HAL_OK' undeclared (first use in this function)
+   88 |                              imu->timeout) != HAL_OK)
+      |                                               ^~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:101:54: error: 'GPIO_PIN_RESET' undeclared (first use in this function)
+  101 |         HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_RESET);
+      |                                                      ^~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:105:58: error: 'GPIO_PIN_SET' undeclared (first use in this function)
+  105 |             HAL_GPIO_WritePin(imu->cs_port, imu->cs_pin, GPIO_PIN_SET);
+      |                                                          ^~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:109:13: warning: implicit declaration of function 'HAL_SPI_Receive' [-Wimplicit-function-declaration]
+  109 |         if (HAL_SPI_Receive(imu->hspi, &rx_data, 1, imu->timeout) != HAL_OK)
+      |             ^~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c: At top level:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:77:25: warning: 'Icm42688p_ReadReg' defined but not used [-Wunused-function]
+   77 | static Icm42688p_Status Icm42688p_ReadReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t *data)
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.c:32:25: warning: 'Icm42688p_WriteReg' defined but not used [-Wunused-function]
+   32 | static Icm42688p_Status Icm42688p_WriteReg(Icm42688p_Handle *imu, uint8_t reg, uint8_t data)
+      |                         ^~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+23:15:44 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/devices/imu/icm-42688-p/icm42688p.c:8:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:20:5: error: unknown type name 'I2C_HandleTypeDef'
+   20 |     I2C_HandleTypeDef *hi2c;        // I2C 사용 시 사용할 HAL I2C 핸들
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:21:5: error: unknown type name 'SPI_HandleTypeDef'
+   21 |     SPI_HandleTypeDef *hspi;        // SPI 사용 시 사용할 HAL SPI 핸들
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:23:5: error: unknown type name 'GPIO_TypeDef'
+   23 |     GPIO_TypeDef *cs_port;          // SPI CS 핀의 GPIO Port
+      |     ^~~~~~~~~~~~
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:105:11: error: 'HAL' undeclared (first use in this function)
+  105 |           HAL
+      |           ^~~
+../Core/Src/main.c:105:11: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:105:14: error: expected ';' before '}' token
+  105 |           HAL
+      |              ^
+      |              ;
+......
+  109 |   }
+      |   ~           
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+23:16:18 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/devices/imu/icm-42688-p/icm42688p.c:8:
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:20:5: error: unknown type name 'I2C_HandleTypeDef'
+   20 |     I2C_HandleTypeDef *hi2c;        // I2C 사용 시 사용할 HAL I2C 핸들
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:21:5: error: unknown type name 'SPI_HandleTypeDef'
+   21 |     SPI_HandleTypeDef *hspi;        // SPI 사용 시 사용할 HAL SPI 핸들
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/devices/imu/icm-42688-p/icm42688p.h:23:5: error: unknown type name 'GPIO_TypeDef'
+   23 |     GPIO_TypeDef *cs_port;          // SPI CS 핀의 GPIO Port
+      |     ^~~~~~~~~~~~
+make: *** [Core/Src/devices/imu/icm-42688-p/subdir.mk:19: Core/Src/devices/imu/icm-42688-p/icm42688p.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+23:16:32 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/devices/imu/icm-42688-p/icm42688p.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/devices/imu/icm-42688-p/icm42688p.d" -MT"Core/Src/devices/imu/icm-42688-p/icm42688p.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/devices/imu/icm-42688-p/icm42688p.o"
+arm-none-eabi-gcc -o "drone-module.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Project\Gimbal-Drone\Module\drone-module\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone-module.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone-module.elf
+ 
+arm-none-eabi-size  drone-module.elf 
+arm-none-eabi-objdump -h -S drone-module.elf  > "drone-module.list"
+   text	   data	    bss	    dec	    hex	filename
+  15776	     16	   1744	  17536	   4480	drone-module.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone-module.list
+ 
+23:20:11 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc -o "drone-module.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Project\Gimbal-Drone\Module\drone-module\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone-module.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone-module.elf
+ 
+arm-none-eabi-size  drone-module.elf 
+arm-none-eabi-objdump -h -S drone-module.elf  > "drone-module.list"
+   text	   data	    bss	    dec	    hex	filename
+  15776	     16	   1744	  17536	   4480	drone-module.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone-module.list
+ 
+23:22:25 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "drone-module.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Project\Gimbal-Drone\Module\drone-module\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone-module.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone-module.elf
+ 
+arm-none-eabi-size  drone-module.elf 
+arm-none-eabi-objdump -h -S drone-module.elf  > "drone-module.list"
+   text	   data	    bss	    dec	    hex	filename
+  15644	     16	   1744	  17404	   43fc	drone-module.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone-module.list
+ 
+23:22:47 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "drone-module.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Project\Gimbal-Drone\Module\drone-module\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone-module.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone-module.elf
+ 
+arm-none-eabi-size  drone-module.elf 
+arm-none-eabi-objdump -h -S drone-module.elf  > "drone-module.list"
+   text	   data	    bss	    dec	    hex	filename
+  15644	     16	   1744	  17404	   43fc	drone-module.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone-module.list
+ 
+23:23:40 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "drone-module.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Project\Gimbal-Drone\Module\drone-module\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone-module.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone-module.elf
+ 
+arm-none-eabi-size  drone-module.elf 
+arm-none-eabi-objdump -h -S drone-module.elf  > "drone-module.list"
+   text	   data	    bss	    dec	    hex	filename
+  15792	     20	   1740	  17552	   4490	drone-module.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone-module.list
+ 
+23:23:57 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-size  drone-module.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15792	     20	   1740	  17552	   4490	drone-module.elf
+Finished building: default.size.stdout
+ 
+23:25:19 **** Incremental Build of configuration Debug for project drone-module ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "drone-module.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Project\Gimbal-Drone\Module\drone-module\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="drone-module.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: drone-module.elf
+ 
+arm-none-eabi-size  drone-module.elf 
+arm-none-eabi-objdump -h -S drone-module.elf  > "drone-module.list"
+   text	   data	    bss	    dec	    hex	filename
+  15848	     20	   1740	  17608	   44c8	drone-module.elf
+Finished building: default.size.stdout
+ 
+Finished building: drone-module.list
+ 

@@ -1,0 +1,27 @@
+/*
+ * debug.h
+ *
+ *  Created on: May 24, 2026
+ *      Author: hyunsoo-Oh
+ */
+
+#ifndef SRC_COMMON_DEBUG_H_
+#define SRC_COMMON_DEBUG_H_
+
+#ifndef DEBUG_ENABLE
+
+#define DEBUG_ENABLE 0
+
+#endif
+
+#if DEBUG_ENABLE
+
+#else
+
+#define debug_printf(...) \
+	do { } while (0)
+
+#endif
+
+
+#endif /* SRC_COMMON_DEBUG_H_ */

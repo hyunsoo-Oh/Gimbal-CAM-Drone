@@ -1,0 +1,16 @@
+/*
+ * bsp_uart.h
+ *
+ *  Created on: Jun 11, 2026
+ *      Author: hyunsoo-Oh
+ */
+
+#ifndef APP_BSP_BSP_UART_H_
+#define APP_BSP_BSP_UART_H_
+
+typedef struct
+{
+	void *instance;
+} bsp_uart_t;
+
+#endif /* APP_BSP_BSP_UART_H_ */
